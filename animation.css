@@ -6,9 +6,10 @@
   position: relative;
 
   animation-name: example-two;
-  animation-duration: 15s;
+  animation-duration: 4s;
   animation-delay: 2s;
-  animation-iteration-count: 2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
 
 @keyframes example-one {
