@@ -5,8 +5,6 @@
   background-color: red;
   position: relative;
 
-  animation-name: example-one;
-  animation-duration: 2s;
   animation-name: example-two;
   animation-duration: 8s;
 }
@@ -23,17 +21,31 @@
 @keyframes example-two {
   0% {
     background-color: blueviolet;
+    left: 0;
+    top: 0;
   }
 
   25% {
     background-color: aquamarine;
+    left: 800px;
+    top: 0;
   }
 
   50% {
     background-color: chocolate;
+    left: 800px;
+    top: 800px;
+  }
+
+  75% {
+    background-color: blue;
+    left: 0px;
+    top: 800px;
   }
 
   100% { 
     background-color: black;
+    left: 0px;
+    top: 0px;
   }
 }
