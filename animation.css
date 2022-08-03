@@ -6,7 +6,8 @@
   position: relative;
 
   animation-name: example-two;
-  animation-duration: 8s;
+  animation-duration: 15s;
+  animation-delay: 2s;
 }
 
 @keyframes example-one {
