@@ -8,6 +8,7 @@
   animation-name: example-two;
   animation-duration: 15s;
   animation-delay: 2s;
+  animation-iteration-count: 2;
 }
 
 @keyframes example-one {
